@@ -39,11 +39,12 @@
   
   .about-section {
     display: flex;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
-    height: 30vh;
-    /* background: url(image/island-peace.jpeg) no-repeat center center/cover; */
+    height: 35vh;
+    border-radius: 5px;
     background-color: hsl(0, 0%, 95%);
   }
   
@@ -131,9 +132,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 0%);
     width: 100vw;
     height: 10vh;
+   
   }
   
   .social-media-img {
@@ -148,6 +150,8 @@
     margin-right: 50px;
     font-size: 2em;
     text-transform: capitalize;
+    font-weight: bold;
+    
   }
   
   
